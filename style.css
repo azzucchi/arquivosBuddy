@@ -1,0 +1,116 @@
+.desk-ap-icadu,
+.desk-ap-icadu * {
+  box-sizing: border-box;
+}
+.desk-ap-icadu {
+  background: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.list-content {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 350px;
+  height: 745px;
+  position: absolute;
+  left: 0px;
+  top: 179px;
+}
+.status-area {
+  background: #d9d9d9;
+  border-radius: 0px 0px 35px 35px;
+  flex-shrink: 0;
+  width: 1920px;
+  height: 156px;
+  position: absolute;
+  left: 0px;
+  top: 924px;
+}
+.logo-area {
+  background: #d9d9d9;
+  border-radius: 35px 0px 0px 0px;
+  flex-shrink: 0;
+  width: 350px;
+  height: 180px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.cabecalho {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 1190px;
+  height: 180px;
+  position: absolute;
+  left: 350px;
+  top: -1px;
+}
+.info-area {
+  background: #d9d9d9;
+  border-radius: 0px 35px 0px 0px;
+  flex-shrink: 0;
+  width: 380px;
+  height: 360px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.menu-area {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 380px;
+  height: 564px;
+  position: absolute;
+  left: 1540px;
+  top: 360px;
+}
+.conteudo {
+  background: #d9d9d9;
+  flex-shrink: 0;
+  width: 1190px;
+  height: 745px;
+  position: absolute;
+  left: 350px;
+  top: 179px;
+}
+.list-buddy {
+  background: #ffffff;
+  border-radius: 35px;
+  flex-shrink: 0;
+  width: 310px;
+  height: 710px;
+  position: absolute;
+  left: 20px;
+  top: 197px;
+}
+.brother-1 {
+  color: #1e0993;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 41px;
+  top: 224px;
+  width: 155px;
+  height: 18px;
+}
+.brother-2 {
+  color: #1e0993;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 41px;
+  top: 250px;
+  width: 155px;
+  height: 18px;
+}
